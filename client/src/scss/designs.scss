@@ -1,0 +1,22 @@
+* {
+  text-decoration: none;
+}
+
+// font-set
+$font_logo: url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+$font_write: url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
+$font_nav: url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap");
+
+// color set
+$prime-color: #660708;
+$prime-color-2: #a4161a;
+$prime-color-3: #ba181b;
+
+$nav-color: #161a1d;
+$nav-color-2: #0b090a;
+
+$hover-color: #d3d3d3;
+$back-color: #faf8f8;
+.container {
+  display: flex;
+}

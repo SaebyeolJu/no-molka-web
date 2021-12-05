@@ -1,0 +1,77 @@
+@import "designs.scss";
+
+body {
+  background: #232c33;
+}
+
+.nav {
+  position: relative;
+  height: 100vh;
+  width: 63px;
+  background: #161a1d;
+  box-shadow: 10px 0 0 $prime-color;
+  overflow-x: hidden;
+  transition: width 0.5s;
+  overflow: hidden;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.nav:hover {
+  width: 300px;
+}
+
+.nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.nav ul li.active {
+  background: #4187f6;
+}
+
+.nav ul li:hover {
+  opacity: 0.5;
+  background: #a3a2a2;
+}
+
+.nav ul li a {
+  position: relative;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
+}
+
+.nav ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.nav .icon {
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+}
+
+.nav ul li a .icon .title {
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  white-space: nowrap;
+}

@@ -1,0 +1,37 @@
+/** @format */
+
+@import "designs.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 35px;
+}
+
+.container {
+  background-color: $prime-color;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.logo {
+  height: 53vh;
+  width: 33vh;
+  &:hover {
+    cursor: url("../img/no_crime.png"), auto;
+  }
+}
