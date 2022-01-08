@@ -16,9 +16,13 @@ function App() {
   return (
     <>
       <Router>
-        <Intro />
+        <div className="container">
+          <Navbar />
+          <Map />
+        </div>
+        {/* <Intro /> */}
         <Routes>
-          <Route path="/map" component={Map} />
+          {/* <Route path="/map" component={Map} /> */}
           <Route path="/news" component={News} />
           <Route path="/notfound" component={NotFound} />
         </Routes>

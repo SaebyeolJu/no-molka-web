@@ -1,0 +1,310 @@
+* {
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 62.5%;
+  list-style-type: none;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+}
+
+.logo-box {
+  height: 50px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #ba181b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.logo-box .service-name {
+  font-size: 2.6em;
+  font-weight: 600;
+}
+
+.around-box {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.around-box p {
+  font-size: 1.3em;
+}
+
+.around-box svg {
+  margin-left: 5px;
+  font-size: 1.8em;
+}
+
+.search-bar {
+  height: 100%;
+  width: 430px;
+  min-width: 310px;
+  background-color: #faf8f8;
+}
+
+.search-box {
+  background-color: #ba181b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 65px;
+  padding-bottom: 7px;
+}
+
+.search-box .search-area {
+  background-color: white;
+  margin-left: 18px;
+  border-radius: 8px;
+  width: 272px;
+}
+
+.search-box .search-area button {
+  color: black;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+}
+
+.search-box svg {
+  font-size: 19px;
+  vertical-align: sub;
+}
+
+.search-input {
+  width: 220px;
+  height: 44px;
+  margin: 0;
+  font-size: 18px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.map-box {
+  width: 100%;
+  height: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.search-result-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 84%;
+  background-color: white;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  overflow: scroll;
+}
+
+.type-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.type-box :hover {
+  background-color: #e5e5e5;
+}
+
+.type-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 44px;
+  width: 8vh;
+  height: 8vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.type-icon svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 24px;
+}
+
+.city-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 13px;
+  margin-top: 10px;
+  padding-bottom: 8px;
+  line-height: 1.9em;
+  border-bottom: 1.5px solid rgba(92, 92, 92, 0.5);
+}
+
+.city-info-box .city-name {
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+.city-info-box .city-count {
+  margin-left: 16px;
+  font-size: 1.4em;
+}
+
+.place-box {
+  text-align: start;
+  font-size: 1.3em;
+  border-bottom: 1.5px solid rgba(92, 92, 92, 0.5);
+}
+
+.place-box .place-name {
+  font-size: 1.4em;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.place-box .place-info-box {
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+.place-box li {
+  padding-left: 13px;
+}
+
+.place-box .place-info-icon {
+  background-color: #ba181b;
+  color: white;
+  min-height: 42px;
+  max-height: 42px;
+  max-width: 42px;
+  min-width: 42px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 12px;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.place-box .place-info-icon svg {
+  height: 24px;
+  width: 24px;
+}
+
+.place-box .place-info-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.place-box:hover {
+  background-color: rgba(231, 242, 165, 0.42);
+}
+
+.place-box:hover .place-name {
+  color: blue;
+}
+
+.place-info-tag {
+  font-weight: bold;
+}
+
+.place-detail-box {
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.place-info-text {
+  font-size: 13px;
+}
+
+.map-type-box {
+  height: 150px;
+  border: solid 3px;
+  border-radius: 6px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 21px;
+}
+
+.map-type-box :hover {
+  cursor: pointer;
+}
+
+.map-type-box .type-title-box {
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.map-type-box .type-title {
+  font-size: 1.4rem;
+}
+
+.map-type-box svg {
+  height: 70px;
+  width: 70px;
+}
