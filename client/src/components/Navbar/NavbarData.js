@@ -27,18 +27,6 @@ export const NavbarData = [
   //   cName: "nav-text",
   // },
   // {
-  //   icon: <FaIcons.FaRegQuestionCircle />,
-  //   title: "Question",
-  //   path: "/question",
-  //   cName: "nav-text",
-  // },
-  // {
-  //   icon: <FiIcons.FiPhone />,
-  //   title: "Contact",
-  //   path: "/contact",
-  //   cName: "nav-text",
-  // },
-  // {
   //   icon: <IoIcons.IoPeopleCircle />,
   //   title: "About",
   //   cName: "nav-text",

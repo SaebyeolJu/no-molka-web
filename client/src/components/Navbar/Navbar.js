@@ -15,10 +15,6 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className={nav ? "nav" : "nav active"}>
           <ul className="nav-menu-items" onClick={showNav}>
-            {/* <li className="logo">
-              <img src="../img/logo.png" alt="" />
-              낫유포
-            </li> */}
             {NavbarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>

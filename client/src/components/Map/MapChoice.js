@@ -56,10 +56,10 @@ function MapChoice({ setSearchType }) {
         >
           <p className="type-title">공중 화장실 점검 정보 </p>
         </div>
-        <FaIcons.FaSearchLocation style={{ paddingTop: "8px" }} />
-        <p style={{ justifyContent: "center", paddingTop: "5px" }}>
-          점검된 시설을 검색해보세요
-        </p>
+        <div style={{ textAlign: "center" }}>
+          <FaIcons.FaSearchLocation style={{ paddingTop: "8px" }} />
+          <p style={{ paddingTop: "5px" }}>점검된 시설을 검색해보세요</p>
+        </div>
       </div>
       <div
         className="map-type-box"

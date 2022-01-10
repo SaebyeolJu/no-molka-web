@@ -16,15 +16,16 @@
   list-style-type: none;
 }
 
-section {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 100%;
+  width: 100%;
 }
 
 .logo-box {
@@ -36,6 +37,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo-box .service-name {
@@ -49,8 +53,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .around-box p {
@@ -75,8 +79,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 65px;
   padding-bottom: 7px;
 }
@@ -91,8 +95,6 @@ section {
 .search-box .search-area button {
   color: black;
   background-color: white;
-  width: 24px;
-  height: 24px;
 }
 
 .search-box svg {
@@ -130,8 +132,8 @@ input:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 84%;
   background-color: white;
   border-top: 1px solid #c4c4c4;
@@ -144,8 +146,8 @@ input:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .type-box :hover {
@@ -160,11 +162,11 @@ input:focus {
   width: 8vh;
   height: 8vh;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .type-icon svg {
@@ -172,8 +174,8 @@ input:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 24px;
 }
 
@@ -229,11 +231,11 @@ input:focus {
   max-width: 42px;
   min-width: 42px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 12px;
   border-radius: 24px;
   display: -webkit-box;
@@ -251,8 +253,8 @@ input:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 10px;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -286,6 +288,8 @@ input:focus {
   margin-left: 18px;
   margin-right: 18px;
   margin-top: 21px;
+  color: black;
+  font-size: medium;
 }
 
 .map-type-box :hover {

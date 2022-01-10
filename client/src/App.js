@@ -22,7 +22,7 @@ function App() {
         </div>
         {/* <Intro /> */}
         <Routes>
-          {/* <Route path="/map" component={Map} /> */}
+          <Route path="/map" component={Map} />
           <Route path="/news" component={News} />
           <Route path="/notfound" component={NotFound} />
         </Routes>

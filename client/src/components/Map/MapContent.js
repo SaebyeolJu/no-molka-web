@@ -1,4 +1,5 @@
 /*global kakao*/
+
 import React, { useEffect, useState } from "react";
 import { useQuery } from "@apollo/client";
 import {
@@ -11,6 +12,8 @@ const trimPos = (pos) => {
   const tempPos = pos.replaceAll("'", "");
   return pos.slice(1, tempPos.length - 1).split(", ");
 };
+
+const { kakao } = window;
 
 const MapContent = () => {
   const {

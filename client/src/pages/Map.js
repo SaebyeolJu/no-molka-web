@@ -8,10 +8,10 @@ import "../css/Map.css";
 function Map() {
   return (
     <div className="map">
-      <section style={{ flexDirection: "row" }}>
+      <main>
         <MapSearch />
-        {/* <MapContent /> */}
-      </section>
+        <MapContent />
+      </main>
     </div>
   );
 }
