@@ -1,7 +1,7 @@
 {
   "name": "no-molka-web",
   "version": "1.0.0",
-  "description": "[여기없지?] 불법 촬영 카메라 근절 웹서비스",
+  "description": "[여기없지?] 불법 촬영 카메라 근절 웹 서비스",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index",

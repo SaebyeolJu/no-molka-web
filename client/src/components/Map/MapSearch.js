@@ -1,17 +1,16 @@
 /*global kakao*/
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useState } from "react";
 
 import * as RiIcons from "react-icons/ri";
 
-import MapTypeData from "./MapTypeData";
 import CityResult from "./Rent/CityResult";
 import MapChoice from "./MapChoice";
 
 const MapSearch = () => {
-  const [searchType, setSearchType] = useState();
+  const [searchMapType, setSearchMapType] = useState();
 
-  const chooseType = () => {
-    switch (searchType) {
+  const chooseMapType = () => {
+    switch (searchMapType) {
       case "rent":
         return <CityResult />;
       case "crime":
@@ -19,7 +18,7 @@ const MapSearch = () => {
       case "check":
         return console.log("check");
       default:
-        return <MapChoice setSearchType={setSearchType} />;
+        return <MapChoice setSearchType={setSearchMapType} />;
     }
   };
 
@@ -34,9 +33,8 @@ const MapSearch = () => {
       </div>
 
       <div className="search-result-box">
-        {/* <MapTypeData /> */}
-        {!searchType && <MapChoice setSearchType={setSearchType} />}
-        {searchType && chooseType()}
+        {!searchMapType && <MapChoice setSearchType={setSearchMapType} />}
+        {searchMapType && chooseMapType()}
       </div>
     </div>
   );

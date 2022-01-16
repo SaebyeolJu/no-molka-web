@@ -12,10 +12,10 @@ const conditionCheck = (condition) => {
   }
 };
 
-const CityResult = (props) => {
+const CityResult = () => {
   const [placeId, setPlaceId] = useState();
   const [openedPlaceId, setOpenedPlaceId] = useState(undefined);
-  const cityName = props.cityName;
+  const [cityName, setCityName] = useState("");
 
   const { loading, error, data } = useQuery(FETCH_CITIES_QUERY, {
     variables: { cityName: cityName },
