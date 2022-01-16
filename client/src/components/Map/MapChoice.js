@@ -81,6 +81,7 @@ function MapChoice({ setSearchType }) {
           style={{
             display: "flex",
             justifyContent: "space-around",
+            alignItems: "center",
             textAlign: "left",
             marginTop: "15px",
           }}

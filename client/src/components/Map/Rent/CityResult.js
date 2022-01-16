@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useQuery } from "@apollo/client";
 import { FETCH_CITIES_QUERY } from "../../../server/query/RentQueries";
 import PlaceResult from "./PlaceResult";
+import MapSearchBox from "../MapSearchBox";
 
 const conditionCheck = (condition) => {
   if (condition.includes("C")) {
@@ -27,7 +28,8 @@ const CityResult = (props) => {
   };
 
   return (
-    <div>
+    <>
+      <MapSearchBox />
       {loading && "loading"}
       {error && "검색을 다시 해주세요."}
       {data &&
@@ -64,7 +66,7 @@ const CityResult = (props) => {
             </div>
           );
         })}
-    </div>
+    </>
   );
 };
 
