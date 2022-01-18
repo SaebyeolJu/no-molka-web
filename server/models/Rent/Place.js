@@ -1,4 +1,7 @@
+/** @format */
+
 // Rent service
+
 const { Schema, model } = require("mongoose");
 
 const placeSchema = new Schema({

@@ -1,3 +1,5 @@
+/** @format */
+
 const { Schema, model } = require("mongoose");
 
 const restroomSchema = new Schema({

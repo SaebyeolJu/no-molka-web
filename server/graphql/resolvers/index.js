@@ -1,3 +1,5 @@
+/** @format */
+
 const Place = require("../../models/Rent/Place");
 const City = require("../../models/Rent/City");
 

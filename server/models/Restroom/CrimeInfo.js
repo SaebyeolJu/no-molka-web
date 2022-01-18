@@ -1,3 +1,5 @@
+/** @format */
+
 const { Schema, model } = require("mongoose");
 
 const crimeInfoSchema = new Schema({
